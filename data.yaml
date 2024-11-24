@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Can', 'Others', 'Plastic Bottle']
+
+roboflow:
+  workspace: smartbin-sven-tech
+  project: smartbin-hzf0g
+  version: 6
+  license: Private
+  url: https://app.roboflow.com/smartbin-sven-tech/smartbin-hzf0g/6
